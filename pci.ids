@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2015.01.24
-#	Date:    2015-01-24 03:15:02
+#	Version: 2015.02.07
+#	Date:    2015-02-07 03:15:02
 #
 #	Maintained by Martin Mares <mj@ucw.cz> and other volunteers from the
 #	PCI ID Project at http://pci-ids.ucw.cz/.
@@ -3491,6 +3491,7 @@
 	0160  64bit/66MHz PCI ATM 155 MMF
 	016e  GXT4000P Graphics Adapter
 	0170  GXT6000P Graphics Adapter
+		1092 0172  FireGL 2
 	017d  GXT300P Graphics Adapter
 	0180  Snipe chipset SCSI controller
 		1014 0241  iSeries 2757 DASD IOA
@@ -10012,7 +10013,7 @@
 		103c 2b22  GeForce GT 810A
 	1296  GK208M [GeForce 825M]
 	1298  GK208M [GeForce GT 720M]
-	1299  GK208M [N16V-GM]
+	1299  GK208M [GeForce 920M]
 	12a0  GK208
 	12b9  GK208GLM [Quadro K610M]
 	12ba  GK208GLM [Quadro K510M]
@@ -10037,7 +10038,7 @@
 	1398  GM107M [GeForce 845M]
 	139a  GM107M [GeForce GTX 950M]
 	139b  GM107M [GeForce GTX 960M]
-	139c  GM107M [N16S-GT1-KB-B]
+	139c  GM107M [GeForce 940M]
 	13b0  GM107GLM [N16P-Q3]
 	13b3  GM107GLM [Quadro K2200M]
 	13ba  GM107GL [Quadro K2200]
@@ -10210,6 +10211,8 @@
 	5249  RTS5249 PCI Express Card Reader
 		103c 1909  ZBook 15
 	5288  RTS5288 PCI Express Card Reader
+	5289  RTL8411 PCI Express Card Reader
+		1043 1457  K55A Laptop
 	8029  RTL-8029(AS)
 		10b8 2011  EZ-Card (SMC1208)
 		10ec 8029  RTL-8029(AS)
@@ -10651,6 +10654,12 @@
 		1458 0691  VT82C691 Apollo Pro System Controller
 	0693  VT82C693 [Apollo Pro Plus]
 	0698  VT82C693A [Apollo Pro133 AGP]
+	0709  VX11 Standard Host Bridge
+	070a  VX11 PCI Express Root Port
+	070b  VX11 PCI Express Root Port
+	070c  VX11 PCI Express Root Port
+	070d  VX11 PCI Express Root Port
+	070e  VX11 PCI Express Root Port
 	0926  VT82C926 [Amazon]
 	1000  VT82C570MV
 	1106  VT82C570MV
@@ -10906,6 +10915,14 @@
 		1458 5000  GA-7VAX Mainboard
 # probably all K7VT2/4*/6
 		1849 3189  K7VT series Motherboards
+	31b0  VX11 Standard Host Bridge
+	31b1  VX11 Standard Host Bridge
+	31b2  VX11 DRAM Controller
+	31b3  VX11 Power Management Controller
+	31b4  VX11 I/O APIC
+	31b5  VX11 Scratch Device
+	31b7  VX11 Standard Host Bridge
+	31b8  VX11 PCI to PCI Bridge
 	3204  K8M800 Host Bridge
 	3205  VT8378 [KM400/A] Chipset Host Bridge
 		1458 5000  GA-7VM400M Motherboard
@@ -10958,6 +10975,9 @@
 	3410  VX900 DRAM Bus Control
 		19da a179  ZBOX nano VD01
 	3432  VL80x xHCI USB 3.0 Controller
+	3456  VX11 Standard Host Bridge
+	345b  VX11 Miscellaneous Bus
+	3a01  VX11 Graphics [Chrome 645/640]
 	4149  VIA VT6420 (ATA133) Controller
 	4204  K8M800 Host Bridge
 	4208  PT890 Host Bridge
@@ -11058,6 +11078,9 @@
 	8d01  PN133/PN133T [S3 Twister]
 	8d04  KM266/P4M266/P4M266A/P4N266 [S3 ProSavageDDR]
 	9001  VX900 Serial ATA Controller
+	9082  Standard AHCI 1.0 SATA Controller
+	9140  HDMI Audio Device
+	9201  USB3.0 Controller
 	9530  Secure Digital Memory Card Controller
 	95d0  SDIO Host Controller
 	a208  PT890 PCI to PCI Bridge Controller
@@ -11608,6 +11631,7 @@
 		0070 8993  WinTV HVR-2200
 		0070 89a0  WinTV HVR-2200
 		0070 89a1  WinTV HVR-2200
+		0070 f123  WinTV HVR-2205
 	7231  SAA7231
 		5ace 8000  Behold TV H8
 		5ace 8001  Behold TV H8
@@ -15641,6 +15665,7 @@
 	080f  Sentry5 DDR/SDR RAM Controller
 	0811  Sentry5 External Interface Core
 	0816  BCM3302 Sentry5 MIPS32 CPU
+	1570  720p FaceTime HD Camera
 	1600  NetXtreme BCM5752 Gigabit Ethernet PCI Express
 		1028 01c1  Precision 490
 		1028 01c2  Latitude D620
@@ -18959,6 +18984,10 @@
 3513  ARCOM Control Systems Ltd
 37d9  ITD Firm ltd.
 	1138  SCHD-PH-8 Phase detector
+# 12-ch Relay Actuator Card
+	1140  VR-12-PCI
+# multiport serial board
+	1141  PCI-485(422)
 3842  eVga.com. Corp.
 38ef  4Links
 3d3d  3DLabs
@@ -20283,11 +20312,16 @@
 	0f0a  Atom Processor Z36xxx/Z37xxx Series LPIO1 HSUART Controller #1
 	0f0c  Atom Processor Z36xxx/Z37xxx Series LPIO1 HSUART Controller #2
 	0f0e  Atom Processor Z36xxx/Z37xxx Series LPIO1 SPI Controller
+	0f12  Atom Processor E3800 Series SMBus Controller
 	0f14  Atom Processor Z36xxx/Z37xxx Series SDIO Controller
 	0f15  Atom Processor Z36xxx/Z37xxx Series SDIO Controller
 	0f16  Atom Processor Z36xxx/Z37xxx Series SDIO Controller
 	0f18  Atom Processor Z36xxx/Z37xxx Series Trusted Execution Engine
 	0f1c  Atom Processor Z36xxx/Z37xxx Series Power Control Unit
+	0f20  Atom Processor E3800 Series SATA IDE Controller
+	0f21  Atom Processor E3800 Series SATA IDE Controller
+	0f22  Atom Processor E3800 Series SATA AHCI Controller
+	0f23  Atom Processor E3800 Series SATA AHCI Controller
 	0f28  Atom Processor Z36xxx/Z37xxx Series LPE Audio Controller
 	0f31  Atom Processor Z36xxx/Z37xxx Series Graphics & Display
 	0f34  Atom Processor Z36xxx/Z37xxx Series USB EHCI
@@ -20302,6 +20336,11 @@
 	0f45  Atom Processor Z36xxx/Z37xxx Series LPIO2 I2C Controller #5
 	0f46  Atom Processor Z36xxx/Z37xxx Series LPIO2 I2C Controller #6
 	0f47  Atom Processor Z36xxx/Z37xxx Series LPIO2 I2C Controller #7
+	0f48  Atom Processor E3800 Series PCI Express Root Port 1
+	0f4a  Atom Processor E3800 Series PCI Express Root Port 2
+	0f4c  Atom Processor E3800 Series PCI Express Root Port 3
+	0f4e  Atom Processor E3800 Series PCI Express Root Port 4
+	0f50  Atom Processor E3800 Series eMMC 4.5 Controller
 	1000  82542 Gigabit Ethernet Controller (Fiber)
 		0e11 b0df  NC6132 Gigabit Ethernet Adapter (1000-SX)
 		0e11 b0e0  NC6133 Gigabit Ethernet Adapter (1000-LX)
