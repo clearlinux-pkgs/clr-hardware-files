@@ -3,7 +3,7 @@ Summary:    Clear Linux container for pci.ids and similar files
 Version:    1
 Release:    5
 Group:      Development/System
-License:    GPLv2+
+License:    GPL-2.0+
 URL:        http://www.clearlinux.org
 Source0:    pci.ids
 Source1:    usb.ids
