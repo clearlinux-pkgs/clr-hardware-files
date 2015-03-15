@@ -24,8 +24,11 @@ rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/hwdata
 cp %{SOURCE0} %{buildroot}/usr/share/hwdata
 cp %{SOURCE1} %{buildroot}/usr/share/hwdata
+gzip -9 %{buildroot}/usr/share/hwdata/pci.ids
+gzip -9 %{buildroot}/usr/share/hwdata/usb.ids
 
 %files
 %defattr(-,root,root,-)
-/usr/share/hwdata/pci.ids
-/usr/share/hwdata/usb.ids
+/usr/share/hwdata/pci.ids.gz
+/usr/share/hwdata/usb.ids.gz
+
