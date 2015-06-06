@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2015.05.12
-#	Date:    2015-05-12 03:15:02
+#	Version: 2015.06.06
+#	Date:    2015-06-06 03:15:02
 #
 #	Maintained by Martin Mares <mj@ucw.cz> and other volunteers from the
 #	PCI ID Project at http://pci-ids.ucw.cz/.
@@ -361,6 +361,7 @@
 		1028 1f4b  PERC H330 Mini
 		1028 1f4c  PERC H330 Mini (for blades)
 		1028 1f4d  PERC H330 Embedded (for monolithic)
+		1054 306a  SAS 3004 iMR ROMB
 	0060  MegaRAID SAS 1078
 		1000 1006  MegaRAID SAS 8888ELP
 		1000 100a  MegaRAID SAS 8708ELP
@@ -2095,11 +2096,11 @@
 		174b 8b04  Radeon HD 8860
 	6819  Pitcairn PRO [Radeon HD 7850]
 		174b e221  Radeon HD 7850 2GB GDDR5 DVI-I/DVI-D/HDMI/DP
-	6820  Venus XTX [Radeon HD 8890M / R9 M275X]
+	6820  Venus XTX [Radeon HD 8890M / R9 M275X/M375X]
 		103c 1851  Radeon HD 7750M
 		17aa 3643  Radeon R9 A375
 		17aa 3801  Radeon R9 M275
-	6821  Venus XT [Radeon HD 8870M / R9 M270X]
+	6821  Venus XT [Radeon HD 8870M / R9 M270X/M370X]
 		1002 031e  FirePro SX4000
 		1028 05cc  FirePro M5100
 		1028 15cc  FirePro M5100
@@ -4095,6 +4096,7 @@
 		102b 2100  MGA-2164W Millennium II
 	051e  MGA 1064SG [Mystique] AGP
 	051f  MGA 2164W [Millennium II] AGP
+		102b 2100  MGA-2164WA [Millennium II A]
 	0520  MGA G200
 		102b dbc2  G200 Multi-Monitor
 		102b dbc8  G200 Multi-Monitor
@@ -4135,7 +4137,7 @@
 		102b f806  Mystique G200 Video AGP
 		102b ff00  MGA-G200 AGP
 		102b ff02  Mystique G200 AGP
-		102b ff03  Millennium G200 AGP
+		102b ff03  Millennium G200A AGP
 		102b ff04  Marvel G200 AGP
 		110a 0032  MGA-G200 AGP
 	0522  MGA G200e [Pilot] ServerEngines (SEP1)
@@ -5763,6 +5765,7 @@
 		1077 020c  3200 Series Quad Port 1Gb Intelligent Ethernet Adapter
 		1077 020f  3200 Series Single Port 10Gb Intelligent Ethernet Adapter
 		1077 0210  QME8242-k 10GbE Dual Port Mezzanine Card
+		1077 0233  QME8262-k 10GbE Dual Port Mezzanine Card
 	8021  8200 Series 10GbE Converged Network Adapter (FCoE)
 		103c 3348  CN1000Q Dual Port Converged Network Adapter
 		1077 0211  QME8242-k 10GbE Dual Port Mezzanine Card, FCoE
@@ -8800,13 +8803,17 @@
 		1849 0569  K10N78FullHD-hSLI R3.0 PCI Express Bridge
 	056a  MCP73 [nForce 630i] USB 2.0 Controller (EHCI)
 		1019 297a  MCP73PVT-SM
-	056c  MCP73 IDE
+		147b 1c3e  I-N73V motherboard
+	056c  MCP73 IDE Controller
 		1019 297a  MCP73PVT-SM
+		147b 1c3e  I-N73V motherboard
 		1afa 7150  JW-IN7150-HD
 	056d  MCP73 PCI Express bridge
 		1019 297a  MCP73PVT-SM
+		10de cb73  MCP73 PCIe x1 port
 	056e  MCP73 PCI Express bridge
 		1019 297a  MCP73PVT-SM
+		10de 0000  MCP73 PCIe x16 port
 	056f  MCP73 PCI Express bridge
 		1019 297a  MCP73PVT-SM
 	05b1  NF200 PCIe 2.0 switch
@@ -9081,49 +9088,65 @@
 	07c1  MCP73 Host Bridge
 		1019 297a  MCP73PVT-SM
 	07c2  MCP73 Host Bridge
+	07c3  MCP73 Host Bridge
+		147b 1c3e  I-N73V motherboard
 	07c5  MCP73 Host Bridge
 	07c8  MCP73 Memory Controller
 		1019 297a  MCP73PVT-SM
+		147b 1c3e  I-N73V motherboard
 		1afa 7150  JW-IN7150-HD
-	07cb  nForce 630i memory controller
+	07cb  nForce 610i/630i memory controller
 		1019 297a  MCP73PVT-SM
+		147b 1c3e  I-N73V motherboard
 		1afa 7150  JW-IN7150-HD
-	07cd  nForce 630i memory controller
+	07cd  nForce 610i/630i memory controller
 		1019 297a  MCP73PVT-SM
+		147b 1c3e  I-N73V motherboard
 		1afa 7150  JW-IN7150-HD
-	07ce  nForce 630i memory controller
+	07ce  nForce 610i/630i memory controller
 		1019 297a  MCP73PVT-SM
+		147b 1c3e  I-N73V motherboard
 		1afa 7150  JW-IN7150-HD
-	07cf  nForce 630i memory controller
+	07cf  nForce 610i/630i memory controller
 		1019 297a  MCP73PVT-SM
+		147b 1c3e  I-N73V motherboard
 		1afa 7150  JW-IN7150-HD
-	07d0  nForce 630i memory controller
+	07d0  nForce 610i/630i memory controller
 		1019 297a  MCP73PVT-SM
+		147b 1c3e  I-N73V motherboard
 		1afa 7150  JW-IN7150-HD
-	07d1  nForce 630i memory controller
+	07d1  nForce 610i/630i memory controller
 		1019 297a  MCP73PVT-SM
+		147b 1c3e  I-N73V motherboard
 		1afa 7150  JW-IN7150-HD
-	07d2  nForce 630i memory controller
+	07d2  nForce 610i/630i memory controller
 		1019 297a  MCP73PVT-SM
+		147b 1c3e  I-N73V motherboard
 		1afa 7150  JW-IN7150-HD
-	07d3  nForce 630i memory controller
+	07d3  nForce 610i/630i memory controller
 		1019 297a  MCP73PVT-SM
+		147b 1c3e  I-N73V motherboard
 		1afa 7150  JW-IN7150-HD
-	07d6  nForce 630i memory controller
+	07d6  nForce 610i/630i memory controller
 		1019 297a  MCP73PVT-SM
+		147b 1c3e  I-N73V motherboard
 		1afa 7150  JW-IN7150-HD
 	07d7  MCP73 LPC Bridge
 		1019 297a  MCP73PVT-SM
+		147b 1c3e  I-N73V motherboard
 		1afa 7150  JW-IN7150-HD
 	07d8  MCP73 SMBus
 		1019 297a  MCP73PVT-SM
+		147b 1c3e  I-N73V motherboard
 		1afa 7150  JW-IN7150-HD
 	07d9  MCP73 Memory Controller
 		1019 297a  MCP73PVT-SM
+		147b 1c3e  I-N73V motherboard
 		1afa 7150  JW-IN7150-HD
 	07da  MCP73 Co-processor
 		1afa 7150  JW-IN7150-HD
 	07dc  MCP73 Ethernet
+		147b 1c3e  I-N73V motherboard
 	07dd  MCP73 Ethernet
 	07de  MCP73 Ethernet
 	07df  MCP73 Ethernet
@@ -9133,16 +9156,22 @@
 		1019 297a  MCP73PVT-SM
 	07e2  C73 [GeForce 7050 / nForce 630i]
 	07e3  C73 [GeForce 7050 / nForce 610i]
+		147b 1c3e  I-N73V motherboard
 	07e5  C73 [GeForce 7100 / nForce 620i]
-	07f0  MCP73 IDE
+	07f0  MCP73 SATA Controller (IDE mode)
+		147b 1c3e  I-N73V motherboard
 	07f4  GeForce 7100/nForce 630i SATA
 		1019 297a  MCP73PVT-SM
+		147b 1c3e  I-N73V motherboard
 	07f8  MCP73 SATA RAID Controller
+		147b 1c3e  I-N73V motherboard
 	07fc  MCP73 High Definition Audio
 		1019 297a  MCP73PVT-SM
 		10de 07fc  MCP73 High Definition Audio
-	07fe  GeForce 7100/nForce 630i USB
+		147b 1c3e  I-N73V motherboard
+	07fe  MCP73 OHCI USB 1.1 Controller
 		1019 297a  MCP73PVT-SM
+		147b 1c3e  I-N73V motherboard
 		1afa 7150  JW-IN7150-HD
 	0840  C77 [GeForce 8200M]
 	0844  C77 [GeForce 9100M G]
@@ -10178,8 +10207,10 @@
 	13d7  GM204M [GeForce GTX 980M]
 	13d8  GM204M [GeForce GTX 970M]
 	13d9  GM204M [GeForce GTX 965M]
+	13f2  GM204GL [Tesla M60]
 	1401  GM206 [GeForce GTX 960]
 	17c2  GM200 [GeForce GTX TITAN X]
+	17c8  GM200 [GeForce GTX 980 Ti]
 	17f0  GM200GL [Quadro M6000]
 10df  Emulex Corporation
 	0720  OneConnect NIC (Skyhawk)
@@ -10650,8 +10681,11 @@
 	0620  RocketRAID 620 2 Port SATA-III Controller
 	0622  RocketRAID 622 2 Port SATA-III Controller
 	0640  RocketRAID 640 4 Port SATA-III Controller
+	0641  RocketRAID 640L 4 Port SATA-III Controller
+	0642  RocketRAID 642L SATA-III Controller (2 eSATA ports + 2 internal SATA ports)
 	0644  RocketRAID 644 4 Port SATA-III Controller (eSATA)
 	0645  RocketRAID 644L 4 Port SATA-III Controller (eSATA)
+	0646  RocketRAID 644LS SATA-III Controller (4 eSATA devices connected by 1 SAS cable)
 	1720  RocketRAID 1720 (2x SATA II RAID Controller)
 	1740  RocketRAID 1740
 	1742  RocketRAID 1742
@@ -10849,7 +10883,7 @@
 	287d  VT8251 PCIE Root Port
 	287e  VT8237/8251 Ultra VLINK Controller
 	3022  CLE266
-	3038  VT82xxxxx UHCI USB 1.1 Controller
+	3038  VT82xx/62xx UHCI USB 1.1 Controller
 		0925 1234  onboard UHCI USB 1.1 Controller
 		1019 0985  P6VXA Motherboard
 		1019 0a81  L7VTA v1.0 Motherboard (KT400-8235)
@@ -10913,9 +10947,11 @@
 		1462 3091  MS-6309 Onboard Audio
 		1462 3092  MS-6309 v2.x Mainboard (VIA VT1611A codec)
 		1462 3300  MS-6330 Onboard Audio
+		1462 3400  MS-6340 (VT8363) motherboard
 		15dd 7609  Onboard Audio
 	3059  VT8233/A/8235/8237 AC97 Audio Controller
 		1019 0a81  L7VTA v1.0 Motherboard (KT400-8235)
+		1019 1841  M811 (VT8367/VT8235/VT6103) [KT333] motherboard
 		1019 1877  K8M800-M2 (V2.0) onboard audio
 		1043 8095  A7V8X Motherboard (Realtek ALC650 codec)
 		1043 80a1  A7V8X-X Motherboard
@@ -10935,7 +10971,7 @@
 		1462 5901  KT6 Delta-FIS2R (MS-6590)
 		1462 7181  K8MM3-V mainboard
 		147b 1407  KV8-MAX3 motherboard
-		1695 300c  EP-8KRA2+ Mainboard
+		1695 300c  Realtek ALC655 audio on EP-8KRA series mainboard
 		1849 0850  ASRock 775Dual-880 Pro onboard audio (Realtek ALC850)
 		1849 9739  P4VT8 Mainboard (C-Media CMI9739A codec)
 # probably all K7VT2/4*/6
@@ -10943,7 +10979,7 @@
 		4005 4710  MSI K7T266 Pro2-RU (MSI-6380 v2) onboard audio (Realtek/ALC 200/200P)
 		a0a0 01b6  AK77-8XN onboard audio
 		a0a0 0342  AK86-L motherboard
-	3065  VT6102 [Rhine-II]
+	3065  VT6102/VT6103 [Rhine-II]
 		1043 80a1  A7V8X-X Motherboard
 		1043 80ed  A7V600-X Motherboard
 		1106 0102  VT6102 [Rhine II] Embeded Ethernet Controller on VT8235
@@ -15669,7 +15705,6 @@
 	1003  HCF 56k Data/Fax Modem
 148e  OSI Plus Corporation
 148f  Plant Equipment, Inc.
-	5370  Dexlink AUWL15I1
 1490  Stone Microsystems PTY Ltd.
 1491  ZEAL Corporation
 1492  Time Logic Corporation
@@ -19164,6 +19199,9 @@
 	0300  Telas 2.V
 1c44  Enmotus Inc
 	8000  8000 Storage IO Controller
+# A Western Digital Subsidiary
+1c58  HGST, Inc.
+	0003  Ultrastar SN100 Series NVMe SSD
 1c7e  TTTech Computertechnik AG
 	0200  zFAS Debug Port
 1c7f  Elektrobit Austria GmbH
@@ -19188,6 +19226,7 @@
 1d44  DPT
 	a400  PM2x24/PM3224
 1d5c  Fantasia Trading LLC
+1d6c  Atomic Rules LLC
 1de1  Tekram Technology Co.,Ltd.
 	0391  TRM-S1040
 	2020  DC-390
@@ -21668,6 +21707,7 @@
 	1a24  82840 840 [Carmel] Chipset PCI Bridge (Hub B)
 	1a30  82845 845 [Brookdale] Chipset Host Bridge
 		1028 010e  Optiplex GX240
+		147b 0505  BL7 motherboard
 		15d9 3280  Supermicro P4SBE Mainboard
 	1a31  82845 845 [Brookdale] Chipset AGP Bridge
 	1a38  5000 Series Chipset DMA Engine
@@ -22143,7 +22183,7 @@
 	2428  82801AB PCI Bridge
 	2440  82801BA ISA Bridge (LPC)
 		8086 5744  S845WD1-E
-	2442  82801BA/BAM USB Controller #1
+	2442  82801BA/BAM UHCI USB 1.1 Controller #1
 		1014 01c6  Netvista A40/A40p
 		1025 1016  Travelmate 612 TX
 		1028 00c7  Dimension 8100
@@ -22152,6 +22192,7 @@
 		103c 126f  e-pc 40
 		1043 8027  TUSL2-C Mainboard
 		104d 80df  Vaio PCG-FX403
+		147b 0505  BL7 motherboard
 		147b 0507  TH7II-RAID
 		8086 4532  D815EEA2 mainboard
 		8086 4557  D815EGEW Mainboard
@@ -22165,12 +22206,13 @@
 		103c 126f  e-pc 40
 		1043 8027  TUSL2-C Mainboard
 		104d 80df  Vaio PCG-FX403
+		147b 0505  BL7 motherboard
 		147b 0507  TH7II-RAID
 		15d9 3280  Supermicro P4SBE Mainboard
 		8086 4532  D815EEA2 mainboard
 		8086 4557  D815EGEW Mainboard
 		8086 5744  S845WD1-E mainboard
-	2444  82801BA/BAM USB Controller #1
+	2444  82801BA/BAM UHCI USB 1.1 Controller #2
 		1025 1016  Travelmate 612 TX
 		1028 00c7  Dimension 8100
 		1028 00d8  Precision 530
@@ -22178,6 +22220,7 @@
 		103c 126f  e-pc 40
 		1043 8027  TUSL2-C Mainboard
 		104d 80df  Vaio PCG-FX403
+		147b 0505  BL7 motherboard
 		147b 0507  TH7II-RAID
 		8086 4532  D815EEA2 mainboard
 		8086 5744  S845WD1-E mainboard
@@ -22190,6 +22233,7 @@
 		103c 126f  e-pc 40
 		104d 80df  Vaio PCG-FX403
 		1462 3370  STAC9721 AC
+		147b 0505  BL7 motherboard
 		147b 0507  TH7II-RAID
 		8086 4557  D815EGEW Mainboard
 	2446  82801BA/BAM AC'97 Modem Controller
@@ -22257,6 +22301,7 @@
 		1028 010e  Optiplex GX240
 		103c 126f  e-pc 40
 		1043 8027  TUSL2-C Mainboard
+		147b 0505  BL7 motherboard
 		147b 0507  TH7II-RAID
 		15d9 3280  Supermicro P4SBE Mainboard
 		8086 4532  D815EEA2 mainboard
@@ -26778,7 +26823,8 @@ deaf  Middle Digital Inc.
 	9050  PC Weasel Virtual VGA
 	9051  PC Weasel Serial Port
 	9052  PC Weasel Watchdog Timer
-deda  SoftHard Technology Ltd.
+# formerly SoftHard Technology Ltd.
+deda  XIMEA
 e000  Winbond
 	e000  W89C940
 e159  Tiger Jet Network Inc.
