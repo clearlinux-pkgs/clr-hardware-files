@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2015.09.22
-#	Date:    2015-09-22 03:15:02
+#	Version: 2015.10.04
+#	Date:    2015-10-04 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -2895,8 +2895,8 @@
 	72a8  RV570 [Radeon X1950 GT] (Secondary)
 	72b1  RV560 [Radeon X1650 XT] (Secondary)
 	72b3  RV560 [Radeon X1650 GT] (Secondary)
-	7300  Fiji [Radeon R9 FURY Series]
-		1002 0b36  Radeon R9 FURY X
+	7300  Fiji [Radeon R9 FURY / NANO Series]
+		1002 0b36  Radeon R9 FURY X / NANO
 		1043 049e  Radeon R9 FURY
 		1043 04a0  Radeon R9 FURY X
 		174b e329  Radeon R9 FURY
@@ -5796,6 +5796,10 @@
 		101e 8493  QLA12160 on AMI MegaRAID
 	1240  ISP1240 SCSI Host Adapter
 	1280  ISP1280 SCSI Host Adapter
+	1634  FastLinQ QL45000 Series 40GbE Controller
+	1656  FastLinQ QL45000 Series 25GbE Controller
+	165e  FastLinQ QL45000 Series 100GbE Controller
+	1664  FastLinQ QL45000 Series Gigabit Ethernet Controller (SR-IOV VF)
 	2020  ISP2020A Fast!SCSI Basic Adapter
 	2031  ISP8324-based 16Gb Fibre Channel to PCI Express Adapter
 		103c 8002  3830C 16G Fibre Channel Host Bus Adapter
@@ -10248,7 +10252,7 @@
 	1296  GK208M [GeForce 825M]
 	1298  GK208M [GeForce GT 720M]
 	1299  GK208M [GeForce 920M]
-	129a  GK208GL [N16V-GL]
+	129a  GK208M [GeForce 910M]
 	12a0  GK208
 	12b9  GK208GLM [Quadro K610M]
 	12ba  GK208GLM [Quadro K510M]
@@ -10296,6 +10300,8 @@
 	13f0  GM204GL [Quadro M5000]
 	13f1  GM204GL [Quadro M4000]
 	13f2  GM204GL [Tesla M60]
+	13f8  GM204GLM [Quadro M5000M]
+	13f9  GM204GLM [Quadro M4000M]
 	13fa  GM204GLM [Quadro M3000M]
 	1401  GM206 [GeForce GTX 960]
 	1402  GM206 [GeForce GTX 950]
@@ -15504,6 +15510,11 @@
 	5090  T540-5090 Unified Wire Ethernet Controller
 	5091  T522-5091 Unified Wire Ethernet Controller
 	5092  T520-5092 Unified Wire Ethernet Controller
+	5093  T580-5093 Unified Wire Ethernet Controller
+	5094  T540-5094 Unified Wire Ethernet Controller
+	5095  T540-5095 Unified Wire Ethernet Controller
+	5096  T580-5096 Unified Wire Ethernet Controller
+	5097  T520-5097 Unified Wire Ethernet Controller
 	5401  T520-CR Unified Wire Ethernet Controller
 	5402  T522-CR Unified Wire Ethernet Controller
 	5403  T540-CR Unified Wire Ethernet Controller
@@ -15540,6 +15551,11 @@
 	5490  T540-5090 Unified Wire Ethernet Controller
 	5491  T522-5091 Unified Wire Ethernet Controller
 	5492  T520-5092 Unified Wire Ethernet Controller
+	5493  T580-5093 Unified Wire Ethernet Controller
+	5494  T540-5094 Unified Wire Ethernet Controller
+	5495  T540-5095 Unified Wire Ethernet Controller
+	5496  T580-5096 Unified Wire Ethernet Controller
+	5497  T520-5097 Unified Wire Ethernet Controller
 	5501  T520-CR Unified Wire Storage Controller
 	5502  T522-CR Unified Wire Storage Controller
 	5503  T540-CR Unified Wire Storage Controller
@@ -15576,6 +15592,11 @@
 	5590  T540-5090 Unified Wire Storage Controller
 	5591  T522-5091 Unified Wire Storage Controller
 	5592  T520-5092 Unified Wire Storage Controller
+	5593  T580-5093 Unified Wire Storage Controller
+	5594  T540-5094 Unified Wire Storage Controller
+	5595  T540-5095 Unified Wire Storage Controller
+	5596  T580-5096 Unified Wire Storage Controller
+	5597  T520-5097 Unified Wire Storage Controller
 	5601  T520-CR Unified Wire Storage Controller
 	5602  T522-CR Unified Wire Storage Controller
 	5603  T540-CR Unified Wire Storage Controller
@@ -15612,6 +15633,11 @@
 	5690  T540-5090 Unified Wire Storage Controller
 	5691  T522-5091 Unified Wire Storage Controller
 	5692  T520-5092 Unified Wire Storage Controller
+	5693  T580-5093 Unified Wire Storage Controller
+	5694  T540-5094 Unified Wire Storage Controller
+	5695  T540-5095 Unified Wire Storage Controller
+	5696  T580-5096 Unified Wire Storage Controller
+	5697  T520-5097 Unified Wire Storage Controller
 	5701  T520-CR Unified Wire Ethernet Controller
 	5702  T522-CR Unified Wire Ethernet Controller
 	5703  T540-CR Unified Wire Ethernet Controller
@@ -15646,6 +15672,11 @@
 	5790  T540-5090 Unified Wire Ethernet Controller
 	5791  T522-5091 Unified Wire Ethernet Controller
 	5792  T520-5092 Unified Wire Ethernet Controller
+	5793  T580-5093 Unified Wire Ethernet Controller
+	5794  T540-5094 Unified Wire Ethernet Controller
+	5795  T540-5095 Unified Wire Ethernet Controller
+	5796  T580-5096 Unified Wire Ethernet Controller
+	5797  T520-5097 Unified Wire Ethernet Controller
 	5801  T520-CR Unified Wire Ethernet Controller [VF]
 	5802  T522-CR Unified Wire Ethernet Controller [VF]
 	5803  T540-CR Unified Wire Ethernet Controller [VF]
@@ -15682,6 +15713,11 @@
 	5890  T540-5090 Unified Wire Ethernet Controller [VF]
 	5891  T522-5091 Unified Wire Ethernet Controller [VF]
 	5892  T520-5092 Unified Wire Ethernet Controller [VF]
+	5893  T580-5093 Unified Wire Ethernet Controller [VF]
+	5894  T540-5094 Unified Wire Ethernet Controller [VF]
+	5895  T540-5095 Unified Wire Ethernet Controller [VF]
+	5896  T580-5096 Unified Wire Ethernet Controller [VF]
+	5897  T520-5097 Unified Wire Ethernet Controller [VF]
 	a000  PE10K Unified Wire Ethernet Controller
 1426  Storage Technology Corp.
 1427  Better On-Line Solutions
@@ -17366,7 +17402,7 @@
 		15b3 0018  HP 10 GbE PCI-e G2 Dual-Port NIC (rev C1)
 	675a  MT25408 [ConnectX EN 10GigE 10GBaseT, PCIe Gen2 5GT/s]
 	6764  MT26468 [ConnectX EN 10GigE, PCIe 2.0 5GT/s Virtualization+]
-		103c 3313  HP NC542m Dual Port Flex-10 10GbE BLc Adapter
+		103c 3313  NC542m Dual Port Flex-10 10GbE BLc Adapter
 	676e  MT26478 [ConnectX EN 40GigE, PCIe 2.0 5GT/s]
 	6778  MT26488 [ConnectX VPI PCIe 2.0 5GT/s - IB DDR / 10GigE Virtualization+]
 # SwitchX-2, 40GbE switch
@@ -17899,6 +17935,8 @@
 	003c  QCA986x/988x 802.11ac Wireless Network Adapter
 	003e  QCA6174 802.11ac Wireless Network Adapter
 		1a56 1525  Killer N1525 Wireless-AC
+	0040  QCA9980/9990 802.11ac Wireless Network Adapter
+	0041  QCA6164 802.11ac Wireless Network Adapter
 	0207  AR5210 Wireless Network Adapter [AR5000 802.11a]
 	1014  AR5212 802.11abg NIC
 		1014 058a  ThinkPad 11a/b/g Wireless LAN Mini Express Adapter (AR5BXB6)
@@ -18898,6 +18936,8 @@
 		1a56 1201  Killer E2100 Gigabit Ethernet Controller
 # PCIe interface for emulator
 	fc02  RedStone
+# CFI device over PCIe
+	fc03  CFI
 1958  Faster Technology, LLC.
 1959  PA Semi, Inc
 	a000  PA6T Core
@@ -19416,6 +19456,9 @@
 	0100  CAN-PCIe-02
 1cd2  SesKion GmbH
 	0301  Simulyzer-RT CompactPCI Serial DIO-1 card
+	0302  Simulyzer-RT CompactPCI Serial PSI5-ECU-1 card
+	0303  Simulyzer-RT CompactPCI Serial PSI5-SIM-1 card
+	0304  Simulyzer-RT CompactPCI Serial PWR-ANA-1 card
 1cdd  secunet Security Networks AG
 1ce4  Exablaze
 	0001  ExaNIC X4
@@ -19423,6 +19466,8 @@
 	0003  ExaNIC X10
 1cf7  Subspace Dynamics
 1d00  Pure Storage
+1d1d  CNEX Labs
+	2807  8800 series NVMe SSD
 # CEM Solutions Pvt. Ltd.
 1d21  Allo
 1d26  Kalray Inc.
@@ -20088,12 +20133,14 @@
 	0044  Core Processor DRAM Controller
 		1025 0347  Aspire 7740G
 		1025 0487  TravelMate 5742
+		1028 040a  Latitude E6410
 		144d c06a  R730 Laptop
 		17c0 10d2  Medion Akoya E7214 Notebook PC [MD98410]
 		e4bf 50c1  PC1-GROOVE
 	0045  Core Processor PCI Express x16 Root Port
 		17c0 10d2  Medion Akoya E7214 Notebook PC [MD98410]
 	0046  Core Processor Integrated Graphics Controller
+		1028 040a  Latitude E6410
 		144d c06a  R730 Laptop
 		17c0 10d9  Medion Akoya E7214 Notebook PC [MD98410]
 		e4bf 50c1  PC1-GROOVE
@@ -22490,6 +22537,7 @@
 		1025 1016  Travelmate 612 TX
 		104d 80df  Vaio PCG-FX403
 	2448  82801 Mobile PCI Bridge
+		1028 040a  Latitude E6410
 		1028 040b  Latitude E6510
 		103c 0934  Compaq nw8240 Mobile Workstation
 		103c 099c  NX6110/NC6120
@@ -25249,34 +25297,35 @@
 	3a7c  82801JD/DO (ICH10 Family) Gigabit Ethernet Controller
 	3b00  5 Series/3400 Series Chipset LPC Interface Controller
 	3b01  Mobile 5 Series Chipset LPC Interface Controller
-	3b02  5 Series Chipset LPC Interface Controller
-	3b03  Mobile 5 Series Chipset LPC Interface Controller
+	3b02  P55 Chipset LPC Interface Controller
+	3b03  PM55 Chipset LPC Interface Controller
 	3b04  5 Series Chipset LPC Interface Controller
 	3b05  Mobile 5 Series Chipset LPC Interface Controller
-	3b06  5 Series Chipset LPC Interface Controller
-	3b07  Mobile 5 Series Chipset LPC Interface Controller
+	3b06  H55 Chipset LPC Interface Controller
+	3b07  QM57 Chipset LPC Interface Controller
+		1028 040a  Latitude E6410
 		1028 040b  Latitude E6510
 		e4bf 50c1  PC1-GROOVE
-	3b08  5 Series Chipset LPC Interface Controller
-	3b09  Mobile 5 Series Chipset LPC Interface Controller
+	3b08  H57 Chipset LPC Interface Controller
+	3b09  HM55 Chipset LPC Interface Controller
 		1025 0347  Aspire 7740G
 		144d c06a  R730 Laptop
 		17c0 10d2  Medion Akoya E7214 Notebook PC [MD98410]
-	3b0a  5 Series Chipset LPC Interface Controller
+	3b0a  Q57 Chipset LPC Interface Controller
 		1028 02da  OptiPlex 980
 		15d9 060d  C7SIM-Q Motherboard
-	3b0b  Mobile 5 Series Chipset LPC Interface Controller
+	3b0b  HM57 Chipset LPC Interface Controller
 	3b0c  5 Series Chipset LPC Interface Controller
 	3b0d  5 Series/3400 Series Chipset LPC Interface Controller
 	3b0e  5 Series/3400 Series Chipset LPC Interface Controller
-	3b0f  5 Series/3400 Series Chipset LPC Interface Controller
+	3b0f  QS57 Chipset LPC Interface Controller
 	3b10  5 Series/3400 Series Chipset LPC Interface Controller
 	3b11  5 Series/3400 Series Chipset LPC Interface Controller
 	3b12  3400 Series Chipset LPC Interface Controller
 	3b13  5 Series/3400 Series Chipset LPC Interface Controller
-	3b14  3400 Series Chipset LPC Interface Controller
+	3b14  3420 Chipset LPC Interface Controller
 	3b15  5 Series/3400 Series Chipset LPC Interface Controller
-	3b16  3400 Series Chipset LPC Interface Controller
+	3b16  3450 Chipset LPC Interface Controller
 	3b17  5 Series/3400 Series Chipset LPC Interface Controller
 	3b18  5 Series/3400 Series Chipset LPC Interface Controller
 	3b19  5 Series/3400 Series Chipset LPC Interface Controller
@@ -25310,11 +25359,13 @@
 	3b2e  5 Series/3400 Series Chipset 4 port SATA IDE Controller
 		e4bf 50c1  PC1-GROOVE
 	3b2f  5 Series/3400 Series Chipset 6 port SATA AHCI Controller
+		1028 040a  Latitude E6410
 		1028 040b  Latitude E6510
 		e4bf 50c1  PC1-GROOVE
 	3b30  5 Series/3400 Series Chipset SMBus Controller
 		1025 0347  Aspire 7740G
 		1028 02da  OptiPlex 980
+		1028 040a  Latitude E6410
 		1028 040b  Latitude E6510
 		144d c06a  R730 Laptop
 		15d9 060d  C7SIM-Q Motherboard
@@ -25322,11 +25373,13 @@
 		e4bf 50c1  PC1-GROOVE
 	3b32  5 Series/3400 Series Chipset Thermal Subsystem
 		1025 0347  Aspire 7740G
+		1028 040a  Latitude E6410
 		144d c06a  R730 Laptop
 		17c0 10d2  Medion Akoya E7214 Notebook PC [MD98410]
 	3b34  5 Series/3400 Series Chipset USB2 Enhanced Host Controller
 		1025 0347  Aspire 7740G
 		1028 02da  OptiPlex 980
+		1028 040a  Latitude E6410
 		1028 040b  Latitude E6510
 		144d c06a  R730 Laptop
 		15d9 060d  C7SIM-Q Motherboard
@@ -25341,6 +25394,7 @@
 	3b3c  5 Series/3400 Series Chipset USB2 Enhanced Host Controller
 		1025 0347  Aspire 7740G
 		1028 02da  OptiPlex 980
+		1028 040a  Latitude E6410
 		1028 040b  Latitude E6510
 		144d c06a  R730 Laptop
 		15d9 060d  C7SIM-Q Motherboard
@@ -25352,19 +25406,23 @@
 	3b41  5 Series/3400 Series Chipset LAN Controller
 	3b42  5 Series/3400 Series Chipset PCI Express Root Port 1
 		1028 02da  OptiPlex 980
+		1028 040a  Latitude E6410
 		1028 040b  Latitude E6510
 		144d c06a  R730 Laptop
 		15d9 060d  C7SIM-Q Motherboard
 		17c0 10d2  Medion Akoya E7214 Notebook PC [MD98410]
 	3b44  5 Series/3400 Series Chipset PCI Express Root Port 2
+		1028 040a  Latitude E6410
 		1028 040b  Latitude E6510
 		15d9 060d  C7SIM-Q Motherboard
 		17c0 10d2  Medion Akoya E7214 Notebook PC [MD98410]
 	3b46  5 Series/3400 Series Chipset PCI Express Root Port 3
+		1028 040a  Latitude E6410
 		1028 040b  Latitude E6510
 		144d c06a  R730 Laptop
 		17c0 10d2  Medion Akoya E7214 Notebook PC [MD98410]
 	3b48  5 Series/3400 Series Chipset PCI Express Root Port 4
+		1028 040a  Latitude E6410
 		1028 040b  Latitude E6510
 		144d c06a  R730 Laptop
 	3b4a  5 Series/3400 Series Chipset PCI Express Root Port 5
@@ -25377,6 +25435,7 @@
 	3b56  5 Series/3400 Series Chipset High Definition Audio
 		1025 0347  Aspire 7740G
 		1028 02da  OptiPlex 980
+		1028 040a  Latitude E6410
 		1028 040b  Latitude E6510
 		144d c06a  R730 Laptop
 		15d9 060d  C7SIM-Q Motherboard
@@ -25719,6 +25778,10 @@
 	6f45  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 2 Debug
 	6f46  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 2 Debug
 	6f47  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D QPI Link 2 Debug
+	6f50  Xeon Processor D Family QuickData Technology Register DMA Channel 0
+	6f51  Xeon Processor D Family QuickData Technology Register DMA Channel 1
+	6f52  Xeon Processor D Family QuickData Technology Register DMA Channel 2
+	6f53  Xeon Processor D Family QuickData Technology Register DMA Channel 3
 	6f60  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Home Agent 1
 	6f68  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Target Address/Thermal/RAS
 	6f6a  Xeon E7 v4/Xeon E5 v4/Xeon E3 v4/Xeon D Channel Target Address Decoder
