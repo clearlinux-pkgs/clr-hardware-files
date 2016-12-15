@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2016.10.29
-#	Date:    2016-10-29 03:15:01
+#	Version: 2016.12.15
+#	Date:    2016-12-15 03:15:01
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at http://pci-ids.ucw.cz/.
@@ -48,9 +48,11 @@
 021b  Compaq Computer Corporation
 	8139  HNE-300 (RealTek RTL8139c) [iPaq Networking]
 0270  Hauppauge computer works Inc. (Wrong ID)
+0291  Davicom Semiconductor, Inc. (Wrong ID)
 # SpeedStream is Efficient Networks, Inc, a Siemens Company
 02ac  SpeedStream
 	1012  1012 PCMCIA 10/100 Ethernet Card [RTL81xx]
+02e0  XFX Pine Group Inc. (Wrong ID)
 0303  Hewlett-Packard Company (Wrong ID)
 0308  ZyXEL Communications Corporation (Wrong ID)
 0315  SK-Electronics Co., Ltd.
@@ -544,14 +546,15 @@
 		1028 1f53  HBA330 Mini
 		1028 1fd2  HBA330 MX
 		1028 1fd3  HBA330 MMZ
+		1bd4 0011  Inspur 12Gb 8i-3008 IT SAS HBA
 	00ab  SAS3516 Fusion-MPT Tri-Mode RAID On Chip (ROC)
 	00ac  SAS3416 Fusion-MPT Tri-Mode I/O Controller Chip (IOC)
-		1d49 0201  ThinkSystem 9400-16i PCIe 12Gb HBA
-		1d49 0203  ThinkSystem 9400-16e PCIe 12Gb HBA
+		1d49 0201  ThinkSystem 430-16i SAS/SATA 12Gb HBA
+		1d49 0203  ThinkSystem 430-16e SAS/SATA 12Gb HBA
 	00ae  SAS3508 Fusion-MPT Tri-Mode RAID On Chip (ROC)
 	00af  SAS3408 Fusion-MPT Tri-Mode I/O Controller Chip (IOC)
-		1d49 0200  ThinkSystem 9400-8i PCIe 12Gb HBA
-		1d49 0202  ThinkSystem 9400-8e PCIe 12Gb HBA
+		1d49 0200  ThinkSystem 430-8i SAS/SATA 12Gb HBA
+		1d49 0202  ThinkSystem 430-8e SAS/SATA 12Gb HBA
 	00be  SAS3504 Fusion-MPT Tri-Mode RAID On Chip (ROC)
 	00bf  SAS3404 Fusion-MPT Tri-Mode I/O Controller Chip (IOC)
 	00c0  SAS3324 PCI-Express Fusion-MPT SAS-3
@@ -2197,6 +2200,8 @@
 	67b9  Vesuvius [Radeon R9 295X2]
 	67be  Hawaii LE
 	67c0  Ellesmere [Polaris10]
+	67c4  Ellesmere [Radeon Pro WX 7100]
+	67c7  Ellesmere [Radeon Pro WX 5100]
 	67df  Ellesmere [Radeon RX 470/480]
 		1002 0b37  Radeon RX 480
 		1043 04a8  Radeon RX 480
@@ -2214,6 +2219,7 @@
 		1787 a480  Radeon RX 480
 	67e0  Baffin [Polaris11]
 	67e1  Baffin [Polaris11]
+	67e3  Baffin [Radeon Pro WX 4100]
 	67e8  Baffin [Polaris11]
 	67e9  Baffin [Polaris11]
 	67eb  Baffin [Polaris11]
@@ -7529,7 +7535,7 @@
 		1885 0700  Tsunami FPGA PMC with Altera Stratix S40
 		1885 0701  Tsunami FPGA PMC with Altera Stratix S30
 	9733  PEX 9733 33-lane, 9-port PCI Express Gen 3 (8.0 GT/s) Switch
-		1d49 0001  ThinkSystem P310W-4P NVMe Switch Card
+		1d49 0001  ThinkSystem 1610-4P NVMe Switch Adapter
 	9749  PEX 9749 49-lane, 13-port PCI Express Gen 3 (8.0 GT/s) Switch
 	a100  Blackmagic Design DeckLink
 	bb04  B&B 3PCIOSD1A Isolated PCI Serial
@@ -8375,6 +8381,7 @@
 		1048 0c45  GLoria II
 		1048 0c4a  GLoria II-64 Pro
 		1048 0c4b  GLoria II-64 Pro DVII
+		10a9 9002  VPro VR3
 	0110  NV11 [GeForce2 MX/MX 400]
 		1043 4015  AGP-V7100 Pro
 		1043 4021  V7100 Deluxe Combo
@@ -10615,7 +10622,7 @@
 	13f1  GM204GL [Quadro M4000]
 	13f2  GM204GL [Tesla M60]
 	13f3  GM204GL [Tesla M6]
-	13f8  GM204GLM [Quadro M5000M]
+	13f8  GM204GLM [Quadro M5000M / M5000 SE]
 	13f9  GM204GLM [Quadro M4000M]
 	13fa  GM204GLM [Quadro M3000M]
 		10de 11c9  Quadro M3000 SE
@@ -10629,8 +10636,9 @@
 	1431  GM206GL [Tesla M4]
 	15f0  GP100GL
 	15f1  GP100GL
-	15f8  GP100GL
-	15f9  GP100GL
+	15f7  GP100GL [Tesla P100 PCIe 12GB]
+	15f8  GP100GL [Tesla P100 PCIe 16GB]
+	15f9  GP100GL [Tesla P100 SMX2 16GB]
 	1617  GM204M [GeForce GTX 980M]
 	1618  GM204M [GeForce GTX 970M]
 	1619  GM204M [GeForce GTX 965M]
@@ -10654,10 +10662,12 @@
 	1b81  GP104 [GeForce GTX 1070]
 	1b82  GP104
 	1b83  GP104
+	1b84  GP104 [GeForce GTX 1060 3GB]
 	1ba0  GP104M [GeForce GTX 1080]
 	1ba1  GP104M [GeForce GTX 1070]
 	1bb0  GP104GL [Quadro P5000]
 	1bb1  GP104GL
+	1bb3  GP104GL [Tesla P4]
 	1bb4  GP104GL
 	1be0  GP104M [GeForce GTX 1080]
 	1be1  GP104M [GeForce GTX 1070]
@@ -13729,6 +13739,7 @@
 	7375  PM7375 [LASAR-155 ATM SAR]
 	7384  PM7384 [FREEDM - 84P672 Frm Engine & Datalink Mgr]
 	8000  PM8000  [SPC - SAS Protocol Controller]
+	8009  PM8009 SPCve 8x6G
 	8032  ATTO Celerity FC8xEN
 		117c 003b  Celerity FC-82EN Fibre Channel Adapter
 		117c 003c  Celerity FC-84EN Fibre Channel Adapter
@@ -13742,6 +13753,8 @@
 	8071  PM8071 Tachyon SPCve 12G eight-port SAS/SATA controller
 	8072  PM8072 Tachyon SPCv 12G 16-port SAS/SATA controller
 	8073  PM8073 Tachyon SPCve 12G 16-port SAS/SATA controller
+	8531  PM8531 PFX 24xG3 Fanout PCIe Switches
+	8546  PM8546 B-FEIP PSX 96xG3 PCIe Storage Switch
 11f9  I-Cube Inc
 11fa  Kasan Electronics Company, Ltd.
 11fb  Datel Inc
@@ -15986,6 +15999,7 @@
 	509a  T520-509A Unified Wire Ethernet Controller
 	509b  T540-509B Unified Wire Ethernet Controller
 	509c  T520-509C Unified Wire Ethernet Controller
+	509d  T540-509D Unified Wire Ethernet Controller
 	5401  T520-CR Unified Wire Ethernet Controller
 	5402  T522-CR Unified Wire Ethernet Controller
 	5403  T540-CR Unified Wire Ethernet Controller
@@ -16033,6 +16047,7 @@
 	549a  T520-509A Unified Wire Ethernet Controller
 	549b  T540-509B Unified Wire Ethernet Controller
 	549c  T520-509C Unified Wire Ethernet Controller
+	549d  T540-509D Unified Wire Ethernet Controller
 	5501  T520-CR Unified Wire Storage Controller
 	5502  T522-CR Unified Wire Storage Controller
 	5503  T540-CR Unified Wire Storage Controller
@@ -16080,6 +16095,7 @@
 	559a  T520-509A Unified Wire Storage Controller
 	559b  T540-509B Unified Wire Storage Controller
 	559c  T520-509C Unified Wire Storage Controller
+	559d  T540-509D Unified Wire Storage Controller
 	5601  T520-CR Unified Wire Storage Controller
 	5602  T522-CR Unified Wire Storage Controller
 	5603  T540-CR Unified Wire Storage Controller
@@ -16127,6 +16143,7 @@
 	569a  T520-509A Unified Wire Storage Controller
 	569b  T540-509B Unified Wire Storage Controller
 	569c  T520-509C Unified Wire Storage Controller
+	569d  T540-509D Unified Wire Storage Controller
 	5701  T520-CR Unified Wire Ethernet Controller
 	5702  T522-CR Unified Wire Ethernet Controller
 	5703  T540-CR Unified Wire Ethernet Controller
@@ -16213,6 +16230,7 @@
 	589a  T520-509A Unified Wire Ethernet Controller [VF]
 	589b  T540-509B Unified Wire Ethernet Controller [VF]
 	589c  T520-509C Unified Wire Ethernet Controller [VF]
+	589d  T540-509D Unified Wire Ethernet Controller [VF]
 	6001  T6225-CR Unified Wire Ethernet Controller
 	6002  T6225-SO-CR Unified Wire Ethernet Controller
 	6003  T6425-CR Unified Wire Ethernet Controller
@@ -16349,7 +16367,8 @@
 144d  Samsung Electronics Co Ltd
 	1600  Apple PCIe SSD
 	a800  XP941 PCIe SSD
-	a802  NVMe SSD Controller
+	a802  NVMe SSD Controller SM951/PM951
+	a804  NVMe SSD Controller SM961/PM961
 	a820  NVMe SSD Controller 171X
 		1028 1f95  Express Flash NVMe XS1715 SSD 400GB
 		1028 1f96  Express Flash NVMe XS1715 SSD 800GB
@@ -16988,6 +17007,7 @@
 	16bc  BCM57765/57785 SDXC/MMC Card Reader
 	16be  BCM57765/57785 MS Card Reader
 	16bf  BCM57765/57785 xD-Picture Card Reader
+	16c1  NetXtreme-E RDMA Virtual Function
 	16c6  NetXtreme BCM5702A3 Gigabit Ethernet
 		10b7 1100  3C1000B-T 10/100/1000 PCI
 		14e4 000c  BCM5702 1000Base-T
@@ -17034,7 +17054,9 @@
 	16e8  BCM57406 NetXtreme-E Ethernet Partition
 	16e9  BCM57407 NetXtreme-E 25Gb Ethernet Controller
 	16ec  BCM57414 NetXtreme-E Ethernet Partition
+	16ed  BCM57414 NetXtreme-E RDMA Partition
 	16ee  BCM57416 NetXtreme-E Ethernet Partition
+	16ef  BCM57416 NetXtreme-E RDMA Partition
 	16f3  NetXtreme BCM5727 Gigabit Ethernet PCIe
 	16f7  NetXtreme BCM5753 Gigabit Ethernet PCI Express
 	16fd  NetXtreme BCM5753M Gigabit Ethernet PCI Express
@@ -17961,6 +17983,8 @@
 	0209  MT27700 Family [ConnectX-4 Flash Recovery]
 	020b  MT27710 Family [ConnectX-4 Lx Flash Recovery]
 	020d  MT28800 Family [ConnectX-5 Flash Recovery]
+	020f  MT28908A0 Family [ConnectX-6 Flash Recovery]
+	0211  MT416842 Family [BlueField SoC Flash Recovery]
 # reserved for RM#105916
 	024e  MT53100 [Spectrum-2, Flash recovery mode]
 # Actual value to be used
@@ -18004,8 +18028,8 @@
 	1018  MT27800 Family [ConnectX-5 Virtual Function]
 	1019  MT28800 Family [ConnectX-5 Ex]
 	101a  MT28800 Family [ConnectX-5 Ex Virtual Function]
-	101b  MT28831
-	101c  MT28840
+	101b  MT28908 Family [ConnectX-6]
+	101c  MT28908 Family [ConnectX-6 Virtual Function]
 	101d  MT28841
 	101e  MT28850
 	101f  MT28851
@@ -18048,8 +18072,8 @@
 	7121  NPS-600 configuration and management interface
 	7122  NPS-600 network interface PF
 	7123  NPS-600 network interface VF
-	a2d0  MT416842
-	a2d1  MT416842
+	a2d0  MT416842 BlueField SoC Crypto enabled
+	a2d1  MT416842 BlueField SoC Crypto disabled
 	a2d3  MT416842 BlueField multicore SoC family VF
 # SwitchX-2, 40GbE switch
 	c738  MT51136
@@ -18720,6 +18744,7 @@
 	7013  AP440-3: 32-Channel Isolated Digital Input Module
 	7014  AP445: 32-Channel Isolated Digital Output Module
 	7016  AP470 48-Channel TTL Level Digital Input/Output Module
+	7017  AP323 16-bit, 20 or 40 Channel Analog Input Module
 	7018  AP408: 32-Channel Digital I/O Module
 	701a  AP220-16 12-Bit, 16-Channel Analog Output Module
 	701b  AP231-16 16-Bit, 16-Channel Analog Output Module
@@ -19298,7 +19323,7 @@
 18bc  GeCube Technologies, Inc.
 18c3  Micronas Semiconductor Holding AG
 	0720  nGene PCI-Express Multimedia Controller
-		07ca 032e  Hybrid M779 PCI-E
+		1461 032e  Hybrid M779 PCI-E
 # Nee Octigabay System
 18c8  Cray Inc
 18c9  ARVOO Engineering BV
@@ -19397,6 +19422,8 @@
 	0155  NT100E3-1-PTP Network Adapter 1x100Gb
 	0165  NT80E3-2-PTP Network Adapter 2x40Gb
 	0175  NT20E3-2-PTP Network Adapter 2x10Gb
+	0185  NT40A01-4x1 Network Adapter 4x1Gb
+	01a5  NT200A01 Network Adapter 2x100Gb
 18f6  NextIO
 	1000  [Nexsis] Switch Virtual P2P PCIe Bridge
 	1001  [Texsis] Switch Virtual P2P PCIe Bridge
@@ -19564,6 +19591,7 @@
 	1813  SFL9021 Virtual Function [Solarstorm]
 	1903  SFC9120 Virtual Function
 	1923  SFC9140 Virtual Function
+	1a03  SFC9220 Virtual Function
 	6703  SFC4000 rev A iSCSI/Onload [Solarstorm]
 		10b8 0102  SMC10GPCIe-10BT (A2) [TigerCard]
 		10b8 0103  SMC10GPCIe-10BT (A3) [TigerCard]
@@ -20249,7 +20277,9 @@
 	00a5  FBC2XLG Capture 2x40Gb
 	00a6  FBC1CG Capture 1x100Gb
 	00a9  FBC2XGHH Capture 2x10Gb
+	00ad  FBC2CGG3HL Capture 2x200Gb
 	00af  Capture slave device
+	a001  FBC2CGG3 Capture 2x200Gb
 # Used on V120 VME Crate Controller
 1c32  Highland Technology, Inc.
 1c33  Daktronics, Inc
@@ -20294,6 +20324,7 @@
 	0003  ExaNIC X10
 	0004  ExaNIC X10-GM
 	0005  ExaNIC X40
+	0006  ExaNIC X10-HPT
 1cf7  Subspace Dynamics
 1d00  Pure Storage
 1d1d  CNEX Labs
@@ -20329,9 +20360,12 @@
 	100b  K35-2SFP
 	100c  K35-4SFP
 	100d  AR-ARKA-FX0 [Arkville 32B DPDK Data Mover]
+		1d6c 2001  DPDK-Aware Virtual Function [Arkville VF]
 	100e  AR-ARKA-FX1 [Arkville 64B DPDK Data Mover]
+		1d6c 2001  DPDK-Aware Virtual Function [Arkville VF]
 	4200  A5PL-E1-10GETI [10 GbE Ethernet Traffic Instrument]
 1d78  DERA
+1d7c  Aerotech, Inc.
 1d8f  Enyx
 1d95  Graphcore Ltd
 1da1  Teko Telecom S.r.l.
@@ -20418,6 +20452,7 @@
 2bd8  ROPEX Industrie-Elektronik GmbH
 3000  Hansol Electronics Inc.
 3112  Satelco Ingenieria S.A.
+3130  AUDIOTRAK
 3142  Post Impression Systems.
 31ab  Zonet
 	1faa  ZEW1602 802.11b/g Wireless Adapter
@@ -22753,6 +22788,8 @@
 		8086 5004  Ethernet 10G 2P X540-t Adapter
 	1529  82599 10 Gigabit Dual Port Network Connection with FCoE
 	152a  82599 10 Gigabit Dual Port Backplane Connection with FCoE
+	152e  82599 Virtual Function
+	1530  X540 Virtual Function
 	1533  I210 Gigabit Network Connection
 		103c 0003  Ethernet I210-T1 GbE NIC
 		1093 7706  Compact Vision System Ethernet Adapter
@@ -22808,6 +22845,7 @@
 		8086 0001  Ethernet Converged Network Adapter X550-T2
 		8086 001a  Ethernet Converged Network Adapter X550-T2
 		8086 0022  Ethernet Converged Network Adapter X550-T2
+	1564  X550 Virtual Function
 	1565  X550 Virtual Function
 	1566  DSL4410 Thunderbolt NHI [Redwood Ridge 2C 2013]
 	1567  DSL4410 Thunderbolt Bridge [Redwood Ridge 2C 2013]
@@ -22827,10 +22865,12 @@
 		103c 0000  Ethernet 10Gb 562SFP+ Adapter
 		103c 22fc  HP Ethernet 10Gb 2-port 562FLR-SFP+ Adapter
 		103c 22fd  HP Ethernet 10Gb 2-port 562SFP+ Adapter
-		1137 0000  Ethernet Converged NIC X710-4
-		1137 013b  Ethernet Converged NIC X710-4
-		1590 0000  Ethernet 10GbE 4P 563SFP+ Adapter
+		1137 0000  Ethernet Converged NIC X710-DA
+		1137 013b  Ethernet Converged NIC X710-DA4
+		1137 020a  Ethernet Converged NIC X710-DA2
+		1590 0000  Ethernet Controller X710 for 10GbE SFP+
 		1590 0225  Ethernet 10GbE 4P 563SFP+ Adapter
+		1590 022f  Ethernet 10Gb 2-port 564i Communication Board
 		17aa 0000  ThinkServer X710 AnyFabric for 10GbE SFP+
 		17aa 4001  ThinkServer X710-4 AnyFabric for 10GbE SFP+
 		17aa 4002  ThinkServer X710-2 AnyFabric for 10GbE SFP+
@@ -22847,7 +22887,7 @@
 		8086 000b  Ethernet Server Adapter X710-DA2 for OCP
 		8086 000d  Ethernet Controller X710 for 10GbE SFP+
 		8086 0010  Ethernet Converged Network Adapter X710
-		8086 4005  Ethernet Controller XL710 for 10 Gigabit SFP+
+		8086 4005  Ethernet Controller X710 for 10GbE SFP+
 		8086 4006  Ethernet Controller X710 for 10GbE SFP+
 	1575  DSL6340 Thunderbolt 3 NHI [Alpine Ridge 2C 2015]
 	1576  DSL6340 Thunderbolt 3 Bridge [Alpine Ridge 2C 2015]
@@ -22892,8 +22932,8 @@
 		103c 0000  HPE Ethernet 10/20Gb 2-port 660FLB Adapter
 		103c 22fe  HPE Ethernet 10/20Gb 2-port 660FLB Adapter
 	1588  Ethernet Controller XL710 for 20GbE backplane
-		103c 0000  HPE Ethernet 10/20Gb 2-port 660M Adapter
-		103c 22ff  HPE Ethernet 10/20Gb 2-port 660M Adapter
+		103c 0000  Ethernet 10/20Gb 2-port 660M Adapter
+		103c 22ff  Ethernet 10/20Gb 2-port 660M Adapter
 	1589  Ethernet Controller X710/X557-AT 10GBASE-T
 		108e 0000  Quad Port 10GBase-T Adapter
 		108e 7b1c  Quad Port 10GBase-T Adapter
@@ -22919,12 +22959,15 @@
 	15a4  Ethernet Switch FM10000 Host Interface
 	15a5  Ethernet Switch FM10000 Host Virtual Interface
 	15a8  Ethernet Connection X552 Virtual Function
+	15a9  X552 Virtual Function
 	15aa  Ethernet Connection X552 10 GbE Backplane
 		1059 0120  T4008 10GbE interface
 	15ab  Ethernet Connection X552 10 GbE Backplane
 	15ac  Ethernet Connection X552 10 GbE SFP+
 	15ad  Ethernet Connection X552/X557-AT 10GBASE-T
 	15ae  Ethernet Connection X552 1000BASE-T
+	15b0  Ethernet Connection X552 Backplane
+	15b4  X553 Virtual Function
 	15b5  DSL6340 USB 3.1 Controller [Alpine Ridge]
 	15b6  DSL6540 USB 3.1 Controller [Alpine Ridge]
 	15b7  Ethernet Connection (2) I219-LM
@@ -22932,6 +22975,7 @@
 	15b9  Ethernet Connection (3) I219-LM
 	15bf  JHL6240 Thunderbolt 3 NHI (Low Power) [Alpine Ridge LP 2016]
 	15c0  JHL6240 Thunderbolt 3 Bridge (Low Power) [Alpine Ridge LP 2016]
+	15c5  X553 Virtual Function
 	15d0  Ethernet SDI Adapter FM10420-100GbE-QDA2
 	15d1  Ethernet Controller 10G X550T
 		8086 0002  Ethernet Converged Network Adapter X550-T1
@@ -24230,6 +24274,9 @@
 	24f4  Wireless 8260
 # Snow Field Peak AC
 		8086 0030  Dual Band Wireless-AC 8260
+	24fd  Wireless 8265 / 8275
+# Windstorm Peak
+		8086 0010  Dual Band Wireless-AC 8265
 	2500  82820 820 (Camino) Chipset Host Bridge (MCH)
 		1028 0095  Precision Workstation 220 Chipset
 		1043 801c  P3C-2000 system chipset
@@ -26372,14 +26419,20 @@
 	37d0  Ethernet Connection X722 for 10GbE SFP+
 		17aa 4020  Intel Ethernet Connection X722 for 10G SFP+
 		17aa 4021  Intel Ethernet Connection X722 for 10G SFP+
+		17aa 4022  Ethernet Connection X722 for 10GbE SFP+
 	37d1  Ethernet Connection X722 for 1GbE
+		1590 0216  Ethernet 1Gb 2-port 368i Adapter
+		1590 0217  Ethernet 1Gb 2-port 368FLR-MMT Adapter
 		17aa 4020  Intel Ethernet Connection X722 for 1GbE
 		17aa 4021  Intel Ethernet Connection X722 for 1GbE
 		17aa 4022  Intel Ethernet Connection X722 for 1GbE
 	37d2  Ethernet Connection X722 for 10GBASE-T
+		1590 0218  Ethernet 10Gb 2-port 568FLR-MMT Adapter
 		17aa 4020  Intel Ethernet Connection X722 for 10GBASE
 		17aa 4021  Intel Ethernet Connection X722 for 10GBASE
+		17aa 4022  Ethernet Connection X722 for 10GBASE-T
 	37d3  Ethernet Connection X722 for 10GbE SFP+
+		1590 0219  Ethernet 10Gb 2-port 568FLR-MMSFP+ Adapter
 	37d4  Ethernet Connection X722 for 10GbE QSFP+
 	37d9  X722 Hyper-V Virtual Function
 	3a00  82801JD/DO (ICH10 Family) 4-port SATA IDE Controller
@@ -28571,6 +28624,7 @@ f1d0  AJA Video
 	cafe  Kona SD
 	cfee  Xena LS/SD-22-DA/SD-DA
 	daff  KONA LHi
+	db09  Corvid 24
 	dcaf  Kona HD
 	dfee  Xena HD-DA
 	efac  Xena SD-MM/SD-22-MM
