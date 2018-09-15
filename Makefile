@@ -7,4 +7,4 @@ update:
 	echo Downloading new content
 	curl http://pciids.sourceforge.net/v2.2/pci.ids	-o pci.ids 
 	curl http://www.linux-usb.org/usb.ids -o usb.ids 
-	
+	git diff --exit-code pci.ids usb.ids || bash ./update.sh
