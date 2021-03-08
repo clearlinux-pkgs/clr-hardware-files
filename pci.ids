@@ -1,8 +1,8 @@
 #
 #	List of PCI ID's
 #
-#	Version: 2021.03.05
-#	Date:    2021-03-05 03:15:02
+#	Version: 2021.03.06
+#	Date:    2021-03-06 03:15:02
 #
 #	Maintained by Albert Pool, Martin Mares, and other volunteers from
 #	the PCI ID Project at https://pci-ids.ucw.cz/.
@@ -23760,6 +23760,7 @@
 1eae  XFX Limited
 1eb1  VeriSilicon Inc
 	1001  Video Accelerator
+1ed3  Yeston
 1ed8  Digiteq Automotive
 	0101  FG4 PCIe Frame Grabber
 1ed9  Myrtle.ai
