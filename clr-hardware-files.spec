@@ -1,7 +1,7 @@
 Name:       clr-hardware-files
 Summary:    Clear Linux container for pci.ids and similar files
 Version:    1
-Release:    370
+Release:    371
 Group:      Development/System
 License:    GPL-2.0+
 URL:        http://www.clearlinux.org
@@ -25,8 +25,11 @@ mkdir -p %{buildroot}/usr/share/hwdata
 cp %{SOURCE0} %{buildroot}/usr/share/hwdata
 cp %{SOURCE1} %{buildroot}/usr/share/hwdata
 
+%check
+[ -s %{SOURCE0} ]
+[ -s %{SOURCE1} ]
+
 %files
 %defattr(-,root,root,-)
 /usr/share/hwdata/pci.ids
 /usr/share/hwdata/usb.ids
-
