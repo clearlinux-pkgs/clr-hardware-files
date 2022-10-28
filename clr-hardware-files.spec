@@ -1,10 +1,10 @@
 Name:       clr-hardware-files
 Summary:    Clear Linux container for pci.ids and similar files
 Version:    1
-Release:    374
+Release:    375
 Group:      Development/System
 License:    GPL-2.0+
-URL:        http://www.clearlinux.org
+URL:        https://clearlinux.org
 Source0:    pci.ids
 Source1:    usb.ids
 AutoReqProv: No
