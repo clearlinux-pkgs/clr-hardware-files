@@ -8,6 +8,7 @@ URL:        https://clearlinux.org
 Source0:    pci.ids
 Source1:    usb.ids
 Source2:    pnp.ids
+Source3:    hwdata.pc
 AutoReqProv: No
 
 %description
@@ -26,14 +27,18 @@ mkdir -p %{buildroot}/usr/share/hwdata
 cp %{SOURCE0} %{buildroot}/usr/share/hwdata
 cp %{SOURCE1} %{buildroot}/usr/share/hwdata
 cp %{SOURCE2} %{buildroot}/usr/share/hwdata
+mkdir -p %{buildroot}/usr/share/pkgconfig
+cp %{SOURCE3} %{buildroot}/usr/share/pkgconfig
 
 %check
 [ -s %{SOURCE0} ]
 [ -s %{SOURCE1} ]
 [ -s %{SOURCE2} ]
+[ -s %{SOURCE3} ]
 
 %files
 %defattr(-,root,root,-)
 /usr/share/hwdata/pci.ids
 /usr/share/hwdata/usb.ids
 /usr/share/hwdata/pnp.ids
+/usr/share/pkgconfig/hwdata.pc
