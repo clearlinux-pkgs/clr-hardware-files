@@ -34,6 +34,7 @@ ADB	Aldebbaron
 ADC	Acnhor Datacomm
 ADD	Advanced Peripheral Devices Inc
 ADE	Arithmos, Inc.
+ADG	Airdrop Gaming LLC
 ADH	Aerodata Holdings Ltd
 ADI	ADI Systems Inc
 ADK	Adtek System Science Company Ltd
@@ -372,6 +373,7 @@ CHS	Agentur Chairos
 CHT	Chunghwa Picture Tubes,LTD.
 CHY	Cherry GmbH
 CIC	Comm. Intelligence Corporation
+CID	Indicates an identity defined by CTS/DID Standards other than EDID
 CIE	Convergent Engineering, Inc.
 CII	Cromack Industries Inc
 CIL	Citicom Infotech Private Limited
@@ -525,8 +527,10 @@ DDS	Barco, N.V.
 DDT	Datadesk Technologies Inc
 DDV	Delta Information Systems, Inc
 DEC	Digital Equipment Corporation
+DEF	DEIF A/S
 DEI	Deico Electronics
 DEL	Dell Inc.
+DEM	DemoPad Software Ltd
 DEN	Densitron Computers Ltd
 DEX	idex displays
 DFI	DFI
@@ -610,6 +614,7 @@ DTE	Dimension Technologies, Inc.
 DTI	Diversified Technology, Inc.
 DTK	Dynax Electronics (HK) Ltd
 DTL	e-Net Inc
+DTM	Daten Tecnologia
 DTN	Datang  Telephone Co
 DTO	Deutsche Thomson OHG
 DTT	Design & Test Technology, Inc.
@@ -655,6 +660,7 @@ EDM	EDMI
 EDT	Emerging Display Technologies Corp
 EEE	ET&T Technology Company Ltd
 EEH	EEH Datalink GmbH
+EEI	ELARABY COMPANY FOR ENGINEERING INDUSTRIES
 EEP	E.E.P.D. GmbH
 EES	EE Solutions, Inc.
 EGA	Elgato Systems LLC
@@ -777,7 +783,7 @@ FIN	Finecom Co., Ltd.
 FIR	Chaplet Systems Inc
 FIS	FLY-IT Simulators
 FIT	Feature Integration Technology Inc.
-FJC	Fujitsu Takamisawa Component Limited
+FJC	FCL COMPONENTS LIMITED
 FJS	Fujitsu Spain
 FJT	F.J. Tieman BV
 FLE	ADTI Media, Inc
@@ -1232,6 +1238,7 @@ LAG	Laguna Systems
 LAN	Sodeman Lancom Inc
 LAS	LASAT Comm. A/S
 LAV	Lava Computer MFG Inc
+LBC	LABAU Technology Corp.
 LBO	Lubosoft
 LCC	LCI
 LCD	Toshiba Matsushita Display Technology Co., Ltd
@@ -1421,8 +1428,10 @@ MNC	Mini Micro Methods Ltd
 MNI	Marseille, Inc.
 MNL	Monorail Inc
 MNP	Microcom
+MNS	Maxnerva Technology Services Limited
 MOC	Matrix Orbital Corporation
 MOD	Modular Technology
+MOK	Moka International limited
 MOM	Momentum Data Systems
 MOS	Moses Corporation
 MOT	Motorola UDS
@@ -1705,7 +1714,7 @@ PGP	propagamma kommunikation
 PGS	Princeton Graphic Systems
 PHC	Pijnenburg Beheer N.V.
 PHE	Philips Medical Systems Boeblingen GmbH
-PHI	DO NOT USE - PHI
+PHI	Invalid Vendor Codename - PHI
 PHL	Philips Consumer Electronics Company
 PHO	Photonics Systems Inc.
 PHS	Philips Communication Systems
@@ -1782,10 +1791,10 @@ PTH	Pathlight Technology Inc
 PTI	Promise Technology Inc
 PTL	Pantel Inc
 PTS	Plain Tree Systems Inc
-PTW	DO NOT USE - PTW
+PTW	Invalid Vendor Codename - PTW
 PTX	Printronix LLC
 PUL	Pulse-Eight Ltd
-PVC	DO NOT USE - PVC
+PVC	Invalid Vendor Codename - PVC
 PVG	Proview Global Co., Ltd
 PVI	Prime view international Co., Ltd
 PVM	Penta Studiotechnik GmbH
@@ -1797,6 +1806,7 @@ PXE	PIXELA CORPORATION
 PXL	The Moving Pixel Company
 PXM	Proxim Inc
 PXN	PixelNext Inc
+PXO	Pixio USA
 QCC	QuakeCom Company Ltd
 QCH	Metronics Inc
 QCI	Quanta Computer Inc
@@ -1873,12 +1883,14 @@ RMP	Research Machines
 RMS	Shenzhen Ramos Digital Technology Co., Ltd
 RMT	Roper Mobile
 RNB	Rainbow Technologies
+RNL	Reonel Oy
 ROB	Robust Electronics GmbH
 ROH	Rohm Co., Ltd.
 ROK	Rockwell International
 ROP	Roper International Ltd
 ROS	Rohde & Schwarz
 RPI	RoomPro Technologies
+RPL	Raspberry PI
 RPT	R.P.T.Intergroups
 RRI	Radicom Research Inc
 RRO	AVARRO
@@ -1893,7 +1905,7 @@ RSV	Ross Video Ltd
 RSX	Rapid Tech Corporation
 RTC	Relia Technologies
 RTI	Rancho Tech Inc
-RTK	DO NOT USE - RTK
+RTK	Invalid Vendor Codename - RTK
 RTL	Realtek Semiconductor Company Ltd
 RTS	Raintree Systems
 RUN	RUNCO International
@@ -1952,7 +1964,7 @@ SEA	Seanix Technology Inc.
 SEB	system elektronik GmbH
 SEC	Seiko Epson Corporation
 SEE	SeeColor Corporation
-SEG	DO NOT USE - SEG
+SEG	Invalid Vendor Codename - SEG
 SEI	Seitz & Associates Inc
 SEL	Way2Call Communications
 SEM	Samsung Electronics Company Ltd
@@ -1983,6 +1995,7 @@ SHI	Jiangsu Shinco Electronic Group Co., Ltd
 SHP	Sharp Corporation
 SHR	Digital Discovery
 SHT	Shin Ho Tech
+SHU	Shure Inc.
 SIA	SIEMENS AG
 SIB	Sanyo Electric Company Ltd
 SIC	Sysmate Corporation
@@ -2026,6 +2039,7 @@ SMI	SpaceLabs Medical Inc
 SMK	SMK CORPORATION
 SML	Sumitomo Metal Industries, Ltd.
 SMM	Shark Multimedia Inc
+SMN	Somnium Space Ltd.
 SMO	STMicroelectronics
 SMP	Simple Computing
 SMR	B.& V. s.r.l.
@@ -2224,9 +2238,10 @@ TMO	Terumo Corporation
 TMR	Taicom International Inc
 TMS	Trident Microsystems Ltd
 TMT	T-Metrics Inc.
+TMV	TeamViewer Germany GmbH
 TMX	Thermotrex Corporation
 TNC	TNC Industrial Company Ltd
-TNJ	DO NOT USE - TNJ
+TNJ	Invalid Vendor Codename - TNJ
 TNM	TECNIMAGEN SA
 TNY	Tennyson Tech Pty Ltd
 TOE	TOEI Electronics Co., Ltd.
@@ -2431,7 +2446,7 @@ VVI	VITEC
 VWB	Vweb Corp.
 WAC	Wacom Tech
 WAL	Wave Access
-WAN	DO NOT USE - WAN
+WAN	Invalid Vendor Codename - WAN
 WAV	Wavephore
 WBN	MicroSoftWare
 WBS	WB Systemtechnik GmbH
@@ -2479,7 +2494,7 @@ WYT	Wooyoung Image & Information Co.,Ltd.
 XAC	XAC Automation Corp
 XAD	Alpha Data
 XDM	XDM Ltd.
-XER	DO NOT USE - XER
+XER	Invalid Vendor Codename - XER
 XES	Extreme Engineering Solutions, Inc.
 XFG	Jan Strapko - FOTO
 XFO	EXFO Electro Optical Engineering
@@ -2488,9 +2503,10 @@ XIO	Xiotech Corporation
 XIR	Xirocm Inc
 XIT	Xitel Pty ltd
 XLX	Xilinx, Inc.
+XMI	Xiaomi Corporation
 XMM	C3PO S.L.
 XNT	XN Technologies, Inc.
-XOC	DO NOT USE - XOC
+XOC	Invalid Vendor Codename - XOC
 XQU	SHANGHAI SVA-DAV ELECTRONICS CO., LTD
 XRC	Xircom Inc
 XRO	XORO ELECTRONICS (CHENGDU) LIMITED
